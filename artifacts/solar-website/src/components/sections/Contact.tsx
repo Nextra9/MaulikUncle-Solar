@@ -47,9 +47,9 @@ export function Contact() {
   };
 
   const contactInfo = [
-    { icon: MapPin, title: "Our Location", details: "123 Solar Street, Green Tech Park, Mumbai, MH 400001" },
-    { icon: Phone, title: "Call Us", details: "+91 98765 43210\n1800-SOLAR-NOW" },
-    { icon: Mail, title: "Email Us", details: "info@solartech.com\nsales@solartech.com" },
+    { icon: MapPin, title: "Our Location", details: "45 New Arvindnagar Society Part-2,\nB/H Samjuba Hospital, Bapunagar,\nAhmedabad, Gujarat – 380024" },
+    { icon: Phone, title: "Call Us", details: "+91 9879497045\n+91 9106621279" },
+    { icon: Mail, title: "Email Us", details: "shreejisolarservice1@gmail.com\nmaulik@shreejisolar.co.in\nSsales@shreejisolar.co.in" },
     { icon: Clock, title: "Working Hours", details: "Mon - Sat: 9:00 AM - 6:00 PM\nSunday: Closed" },
   ];
 

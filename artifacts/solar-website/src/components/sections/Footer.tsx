@@ -25,11 +25,15 @@ export function Footer() {
                 <Sun size={20} strokeWidth={2.5} />
               </div>
               <span className="font-display font-bold text-2xl tracking-tight text-white">
-                SolarTech
+                Shreeji Solar
               </span>
             </div>
-            <p className="text-slate-400 mb-6 text-sm leading-relaxed">
-              Leading the transition to sustainable energy. We provide world-class solar solutions for a brighter, greener future.
+            <p className="text-slate-400 mb-4 text-sm leading-relaxed">
+              Leading the transition to sustainable energy across India. Based in Ahmedabad, Gujarat, serving 9 states with world-class solar solutions.
+            </p>
+            <p className="text-slate-500 text-xs mb-6">
+              <span className="text-accent font-semibold">India:</span> Gujarat · Delhi · Maharashtra · Tamil Nadu · Andhra Pradesh · West Bengal · Punjab · Rajasthan · Karnataka<br />
+              <span className="text-accent font-semibold">Upcoming:</span> South Africa · Canada · USA
             </p>
             <div className="flex gap-4">
               <a href="#" className="w-10 h-10 rounded-full bg-white/5 flex items-center justify-center hover:bg-accent hover:text-white transition-colors">
@@ -92,7 +96,7 @@ export function Footer() {
         </div>
 
         <div className="border-t border-white/10 pt-8 flex flex-col md:flex-row justify-between items-center gap-4 text-sm text-slate-500">
-          <p>© {new Date().getFullYear()} SolarTech Energies. All rights reserved.</p>
+          <p>© {new Date().getFullYear()} Shreeji Solar Service. All rights reserved.</p>
           <div className="flex gap-6">
             <a href="#" className="hover:text-white transition-colors">Privacy Policy</a>
             <a href="#" className="hover:text-white transition-colors">Terms of Service</a>

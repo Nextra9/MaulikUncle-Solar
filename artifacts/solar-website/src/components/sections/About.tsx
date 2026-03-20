@@ -50,11 +50,11 @@ export function About() {
             </div>
             
             <h2 className="text-3xl md:text-4xl lg:text-5xl font-display font-bold text-primary mb-6 text-balance">
-              Pioneering Solar Energy Since 2008
+              Pioneering Solar Energy Since 2014
             </h2>
             
             <p className="text-muted-foreground text-lg mb-8 leading-relaxed">
-              SolarTech is a premier solar solutions provider dedicated to accelerating the global transition to sustainable energy. We deliver high-efficiency solar modules, comprehensive EPC services, and innovative energy storage solutions.
+              Shreeji Solar Service is a premier solar solutions provider based in Ahmedabad, Gujarat, dedicated to accelerating India's transition to sustainable energy. We deliver high-efficiency solar modules, comprehensive EPC services, and ongoing maintenance solutions across 9 states — Gujarat, Delhi, Maharashtra, Tamil Nadu, Andhra Pradesh, West Bengal, Punjab, Rajasthan &amp; Karnataka. We are also expanding internationally to South Africa, Canada, and the USA.
             </p>
 
             <div className="grid sm:grid-cols-2 gap-6 mb-10">

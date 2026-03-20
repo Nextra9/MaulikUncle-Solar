@@ -23,10 +23,10 @@ function Counter({ from, to, duration = 2 }: { from: number; to: number; duratio
 }
 
 const stats = [
-  { id: 1, label: "Projects Completed", value: 5000, suffix: "+" },
+  { id: 1, label: "Projects Completed", value: 10000, suffix: "+" },
   { id: 2, label: "Happy Clients", value: 3000, suffix: "+" },
-  { id: 3, label: "Installed Capacity", value: 500, suffix: "+ MW" },
-  { id: 4, label: "Years Experience", value: 15, suffix: "+" },
+  { id: 3, label: "Installed Capacity", value: 7, suffix: "+ MW" },
+  { id: 4, label: "Years Experience", value: 10, suffix: "+" },
 ];
 
 export function Stats() {

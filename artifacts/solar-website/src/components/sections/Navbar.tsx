@@ -69,7 +69,7 @@ export function Navbar() {
               <Sun size={24} strokeWidth={2.5} />
             </div>
             <span className="font-display font-bold text-2xl tracking-tight">
-              SolarTech
+              Shreeji Solar
             </span>
           </div>
 
