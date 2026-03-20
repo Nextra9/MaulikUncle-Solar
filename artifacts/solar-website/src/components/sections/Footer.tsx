@@ -92,6 +92,7 @@ export function Footer() {
                 <div className="flex flex-col gap-1">
                   <a href="mailto:shreejisolarservice1@gmail.com" className="text-slate-400 hover:text-accent transition-colors break-all">shreejisolarservice1@gmail.com</a>
                   <a href="mailto:maulik@shreejisolar.co.in" className="text-slate-400 hover:text-accent transition-colors break-all">maulik@shreejisolar.co.in</a>
+                  <a href="mailto:sales@shreejisolar.co.in" className="text-slate-400 hover:text-accent transition-colors break-all">sales@shreejisolar.co.in</a>
                 </div>
               </li>
             </ul>

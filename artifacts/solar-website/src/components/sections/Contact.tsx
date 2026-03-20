@@ -150,7 +150,7 @@ export function Contact() {
               <div>
                 <h4 className="font-bold text-primary mb-1">Our Location</h4>
                 <p className="text-muted-foreground text-sm leading-relaxed">
-                  45 New Arvindnagar Society Part-2,<br />
+                  45-New Arvindnagar Society Part-2,<br />
                   B/H Samjuba Hospital, Bapunagar,<br />
                   Ahmedabad, Gujarat – 380024
                 </p>
@@ -202,10 +202,10 @@ export function Contact() {
                     maulik@shreejisolar.co.in
                   </a>
                   <a
-                    href="mailto:Ssales@shreejisolar.co.in"
+                    href="mailto:sales@shreejisolar.co.in"
                     className="text-sm text-accent font-medium hover:underline break-all"
                   >
-                    Ssales@shreejisolar.co.in
+                    sales@shreejisolar.co.in
                   </a>
                 </div>
               </div>

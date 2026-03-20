@@ -1,5 +1,5 @@
 import { motion } from "framer-motion";
-import { ArrowRight, Zap, Shield, Sun } from "lucide-react";
+import { Zap, Shield, Sun } from "lucide-react";
 
 const products = [
   {
@@ -90,13 +90,9 @@ export function Products() {
                     <Icon size={24} />
                   </div>
                   <h3 className="font-display font-bold text-xl text-foreground mb-2">{product.name}</h3>
-                  <p className="text-muted-foreground text-sm mb-6 line-clamp-3">
+                  <p className="text-muted-foreground text-sm line-clamp-3">
                     {product.description}
                   </p>
-                  <a href="#" className="inline-flex items-center text-accent font-semibold text-sm group/link">
-                    View Details
-                    <ArrowRight className="ml-1 w-4 h-4 group-hover/link:translate-x-1 transition-transform" />
-                  </a>
                 </div>
               </motion.div>
             )

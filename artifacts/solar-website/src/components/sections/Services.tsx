@@ -1,5 +1,5 @@
 import { motion } from "framer-motion";
-import { Home, Building2, Wrench, Settings, ArrowRight } from "lucide-react";
+import { Home, Building2, Wrench } from "lucide-react";
 
 const services = [
   {
@@ -107,13 +107,6 @@ export function Services() {
                     {service.description}
                   </p>
                   
-                  {/* Hidden by default, slides up on hover */}
-                  <div className="overflow-hidden">
-                    <a href="#" className="inline-flex items-center text-accent font-semibold group/btn transform translate-y-8 opacity-0 group-hover:translate-y-0 group-hover:opacity-100 transition-all duration-300">
-                      Discover More
-                      <ArrowRight className="ml-2 w-4 h-4 group-hover/btn:translate-x-1 transition-transform" />
-                    </a>
-                  </div>
                 </div>
               </motion.div>
             )
