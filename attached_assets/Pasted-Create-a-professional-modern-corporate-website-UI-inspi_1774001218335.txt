@@ -1,0 +1,81 @@
+Create a professional, modern corporate website UI inspired by Waaree Energies (solar company website).
+
+Tech Stack:
+- React (Vite)
+- Tailwind CSS
+- Use clean component-based architecture
+
+Design Requirements:
+- Premium corporate look (clean, minimal, high-end)
+- Color theme: white, dark blue, green accents (solar theme)
+- Smooth animations (hover effects, transitions)
+- Fully responsive (mobile + tablet + desktop)
+
+Pages / Sections:
+
+1. Navbar:
+- Logo on left
+- Menu: Home, About, Products, Services, Projects, Contact
+- Sticky navbar with shadow on scroll
+- CTA button: "Get a Quote"
+
+2. Hero Section:
+- Full-width background image (solar panels / renewable energy)
+- Overlay gradient (dark blue)
+- Big heading: “Powering a Sustainable Future”
+- Subheading + CTA buttons
+- Smooth scroll animation
+
+3. Stats Section:
+- Show key numbers (Projects, Clients, MW Installed)
+- Use animated counters
+
+4. About Section:
+- Split layout (image + text)
+- Company description
+- Mission & Vision
+
+5. Products Section:
+- Grid layout cards
+- Solar panel products with image, name, short description
+- Hover effects (scale + shadow)
+
+6. Services Section:
+- Cards for:
+  - Solar Installation
+  - EPC Services
+  - Maintenance
+- Icons + short text
+
+7. Projects / Portfolio:
+- Image gallery (grid or masonry)
+- Hover overlay with project details
+
+8. Testimonials:
+- Slider/carousel
+- Customer reviews
+
+9. Contact Section:
+- Contact form (Name, Email, Message)
+- Company address + map placeholder
+
+10. Footer:
+- Company info
+- Quick links
+- Social media icons
+- Copyright
+
+Extra Features:
+- Smooth scrolling
+- Framer Motion animations (optional)
+- Clean reusable components
+- Proper spacing and typography
+
+Output:
+- Complete React project code
+- Organized folder structure
+- All components separated
+- Ready to run in Replit
+
+Make the UI very similar to Waaree Energies website (corporate solar energy style), not generic.
+Focus strongly on design, spacing, and modern UI/UX.

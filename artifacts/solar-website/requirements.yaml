@@ -1,0 +1,27 @@
+packages:
+  "framer-motion": "For premium smooth scroll animations and entry effects"
+  "embla-carousel-react": "For the testimonials auto-playing slider"
+  "embla-carousel-autoplay": "For the testimonials auto-playing slider"
+  "react-hook-form": "For the contact form state management"
+  "@hookform/resolvers": "For contact form zod validation"
+  "zod": "For contact form schema validation"
+  "clsx": "Utility for constructing className strings conditionally"
+  "tailwind-merge": "Utility to efficiently merge Tailwind CSS classes"
+
+images:
+  - path: "artifacts/solar-website/public/images/hero-bg.png"
+    description: "Dramatic cinematic shot of a vast solar panel farm at sunrise, deep blue sky, soft golden light hitting the panels, highly detailed, 8k, photorealistic"
+    aspect_ratio: "16:9"
+  - path: "artifacts/solar-website/public/images/about-img.png"
+    description: "Professional engineers in hard hats inspecting a commercial solar panel installation on a modern corporate roof, bright sunny day, premium photography"
+    aspect_ratio: "4:3"
+  - path: "artifacts/solar-website/public/images/service-residential.png"
+    description: "Modern luxury residential house with beautiful sleek black solar panels seamlessly integrated on the roof, sunny day, manicured lawn"
+    aspect_ratio: "16:9"
+  - path: "artifacts/solar-website/public/images/service-commercial.png"
+    description: "Large scale industrial building with extensive rows of solar panels extending across the flat roof, drone shot, clean energy concept"
+    aspect_ratio: "16:9"
+
+notes:
+  - This is a pure frontend application, all form submissions will be simulated.
+  - Smooth scrolling is handled via CSS scroll-behavior on the html element.
