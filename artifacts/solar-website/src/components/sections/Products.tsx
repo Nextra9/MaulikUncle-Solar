@@ -1,6 +1,5 @@
 import { motion } from "framer-motion";
 import { ArrowRight, Zap, Shield, Sun } from "lucide-react";
-import { Button } from "@/components/ui/button";
 
 const products = [
   {
@@ -60,16 +59,6 @@ export function Products() {
               Engineered for maximum efficiency and durability. Our Tier-1 modules are built to withstand extreme conditions while delivering optimal power output.
             </p>
           </motion.div>
-          <motion.div
-            initial={{ opacity: 0, y: 20 }}
-            whileInView={{ opacity: 1, y: 0 }}
-            viewport={{ once: true }}
-            transition={{ delay: 0.2 }}
-          >
-            <Button variant="outline" size="lg" className="hidden md:inline-flex">
-              Download Catalog
-            </Button>
-          </motion.div>
         </div>
 
         <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-8">
@@ -112,12 +101,6 @@ export function Products() {
               </motion.div>
             )
           })}
-        </div>
-
-        <div className="mt-12 text-center md:hidden">
-          <Button variant="outline" size="lg" className="w-full">
-            Download Catalog
-          </Button>
         </div>
 
       </div>

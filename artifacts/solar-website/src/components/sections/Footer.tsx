@@ -1,4 +1,4 @@
-import { Sun, Facebook, Twitter, Linkedin, Instagram, Phone, Mail, MapPin } from "lucide-react";
+import { Facebook, Twitter, Linkedin, Instagram, Phone, Mail, MapPin } from "lucide-react";
 
 export function Footer() {
   const scrollTo = (href: string) => {
@@ -16,15 +16,14 @@ export function Footer() {
           {/* Col 1 - Brand */}
           <div>
             <div
-              className="flex items-center gap-2 cursor-pointer mb-6"
+              className="cursor-pointer mb-6 inline-block"
               onClick={() => scrollTo("#home")}
             >
-              <div className="bg-accent text-white p-1.5 rounded-md">
-                <Sun size={20} strokeWidth={2.5} />
-              </div>
-              <span className="font-display font-bold text-xl tracking-tight text-white">
-                Shreeji Solar Service
-              </span>
+              <img
+                src={`${import.meta.env.BASE_URL}images/logo.jpeg`}
+                alt="Shreeji Solar Service"
+                className="h-14 w-auto object-contain rounded-lg bg-white px-2 py-1 hover:scale-105 transition-transform duration-200"
+              />
             </div>
             <p className="text-slate-400 mb-4 text-sm leading-relaxed">
               Leading solar energy provider based in Ahmedabad, Gujarat. Serving residential, commercial, and industrial clients across 9 Indian states.

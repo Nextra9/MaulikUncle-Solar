@@ -1,5 +1,5 @@
 import { useState, useEffect } from "react";
-import { Sun, Menu, X } from "lucide-react";
+import { Menu, X } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { cn } from "@/lib/utils";
 import { motion, AnimatePresence } from "framer-motion";
@@ -61,16 +61,15 @@ export function Navbar() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex items-center justify-between">
           {/* Logo */}
-          <div 
-            className="flex items-center gap-2 cursor-pointer group"
+          <div
+            className="cursor-pointer group"
             onClick={() => scrollTo("#home")}
           >
-            <div className="bg-accent text-white p-2 rounded-lg group-hover:scale-110 transition-transform">
-              <Sun size={24} strokeWidth={2.5} />
-            </div>
-            <span className="font-display font-bold text-xl tracking-tight">
-              Shreeji Solar Service
-            </span>
+            <img
+              src={`${import.meta.env.BASE_URL}images/logo.jpeg`}
+              alt="Shreeji Solar Service"
+              className="h-12 w-auto object-contain rounded-lg bg-white px-1 group-hover:scale-105 transition-transform duration-200"
+            />
           </div>
 
           {/* Desktop Navigation */}
