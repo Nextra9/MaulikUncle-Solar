@@ -23,7 +23,7 @@ const services = [
     title: "O&M Services",
     description: "Comprehensive Operations & Maintenance to ensure your plant operates at peak performance.",
     icon: Wrench,
-    image: "https://images.unsplash.com/photo-1548614606-52b4451f994b?w=800&h=600&fit=crop", // Unsplash fallback
+    image: "https://images.unsplash.com/photo-1621905251189-08b45d6a269e?w=800&h=600&fit=crop",
     delay: 0.3
   }
 ];

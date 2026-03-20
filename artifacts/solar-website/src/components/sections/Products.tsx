@@ -17,7 +17,7 @@ const products = [
     description: "Cost-effective solutions ideal for large-scale utility and industrial installations.",
     efficiency: "17%",
     icon: Shield,
-    image: "https://images.unsplash.com/photo-1584277261846-c6a1672dd979?w=800&h=600&fit=crop"
+    image: "https://images.unsplash.com/photo-1509391366360-2e959784a276?w=800&h=600&fit=crop"
   },
   {
     id: 3,

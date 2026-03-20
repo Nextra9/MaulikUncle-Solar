@@ -9,7 +9,7 @@ const links = [
   { name: "About", href: "#about" },
   { name: "Products", href: "#products" },
   { name: "Services", href: "#services" },
-  { name: "Projects", href: "#projects" },
+  { name: "Contact", href: "#contact" },
 ];
 
 export function Navbar() {
@@ -68,8 +68,8 @@ export function Navbar() {
             <div className="bg-accent text-white p-2 rounded-lg group-hover:scale-110 transition-transform">
               <Sun size={24} strokeWidth={2.5} />
             </div>
-            <span className="font-display font-bold text-2xl tracking-tight">
-              Shreeji Solar
+            <span className="font-display font-bold text-xl tracking-tight">
+              Shreeji Solar Service
             </span>
           </div>
 
