@@ -77,7 +77,7 @@ export function Footer() {
               <li className="flex gap-3 text-sm">
                 <MapPin size={16} className="text-accent shrink-0 mt-0.5" />
                 <span className="text-slate-400 leading-relaxed">
-                  45 New Arvindnagar Society Part-2, B/H Samjuba Hospital, Bapunagar, Ahmedabad, Gujarat – 380024
+                  45-New Arvindnagar Society Part-2, B/H Samjuba Hospital, Bapunagar, Ahmedabad, Gujarat – 380024
                 </span>
               </li>
               <li className="flex gap-3 text-sm">
