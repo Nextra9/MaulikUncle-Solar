@@ -101,7 +101,7 @@ export function Footer() {
         </div>
 
         <div className="border-t border-white/10 pt-8 flex flex-col md:flex-row justify-between items-center gap-4 text-sm text-slate-500">
-          <p>©document.write(new Date().getFullYear()) Shreeji Solar Service. All rights reserved.</p>
+          <p>© <script>document.write(new Date().getFullYear())</script> Shreeji Solar Service. All rights reserved.</p>
           <div className="flex gap-6">
             <a href="#" className="hover:text-white transition-colors">Privacy Policy</a>
             <a href="#" className="hover:text-white transition-colors">Terms of Service</a>
