@@ -1,0 +1,9 @@
+[build]
+  base = "."
+  command = "pnpm --filter @workspace/solar-website run build"
+  publish = "artifacts/solar-website/dist/public"
+
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200

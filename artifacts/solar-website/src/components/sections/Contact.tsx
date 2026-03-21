@@ -4,10 +4,10 @@ import { useForm } from "react-hook-form";
 import { zodResolver } from "@hookform/resolvers/zod";
 import * as z from "zod";
 import { MapPin, Phone, Mail, Send } from "lucide-react";
-import { Button } from "@/components/ui/button";
-import { Input } from "@/components/ui/input";
-import { Textarea } from "@/components/ui/textarea";
-import { useToast } from "@/hooks/use-toast";
+import { Button } from "@workspace/ui";
+import { Input } from "@workspace/ui";
+import { Textarea } from "@workspace/ui";
+import { useToast } from "@workspace/ui";
 
 const formSchema = z.object({
   name: z.string().min(2, "Name is required"),

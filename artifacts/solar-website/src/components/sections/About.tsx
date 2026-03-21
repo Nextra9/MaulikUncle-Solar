@@ -1,7 +1,7 @@
 import { useState } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import { CheckCircle2, Target, Eye, X } from "lucide-react";
-import { Button } from "@/components/ui/button";
+import { Button } from "@workspace/ui";
 
 const FULL_ABOUT = `Shreeji Solar Service is a premier solar solutions provider based in Ahmedabad, Gujarat, dedicated to accelerating India's transition to sustainable energy. We deliver high-efficiency solar modules, comprehensive EPC services, and ongoing maintenance solutions across 9 states — Gujarat, Delhi, Maharashtra, Tamil Nadu, Andhra Pradesh, West Bengal, Punjab, Rajasthan & Karnataka. We are also expanding internationally to South Africa, Canada, and the USA.
 

@@ -1,0 +1,104 @@
+﻿
+> @workspace/solar-website@0.0.0 build
+> vite build --config vite.config.ts
+
+node.exe : [31mfailed 
+to load config from C:\
+Users\nitya\Desktop\Sol
+ar\artifacts\solar-webs
+ite\vite.config.ts[39m
+At C:\Program Files\nod
+ejs\npm.ps1:29 char:3
++   & $NODE_EXE 
+$NPM_CLI_JS $args
++   ~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~
+    + CategoryInfo     
+         : NotSpecifi  
+  ed: ([31mfailed t   
+ o ....config.ts[3    
+9m:String) [], Rem    
+oteException
+    + FullyQualifiedEr 
+   rorId : NativeComm  
+  andError
+ 
+[31merror during 
+build:
+Error: PORT 
+environment variable 
+is required but was 
+not provided.
+    at file:///C:/Users
+/nitya/Desktop/Solar/ar
+tifacts/solar-website/n
+ode_modules/.vite-temp/
+vite.config.ts.timestam
+p-1774021126481-5acb0c5
+8bb131.mjs:10:9
+    at ModuleJob.run (n
+ode:internal/modules/es
+m/module_job:271:25)
+    at async onImport.t
+racePromise.__proto__ (
+node:internal/modules/e
+sm/loader:578:26)
+    at async loadConfig
+FromBundledFile (file:/
+//C:/Users/nitya/Deskto
+p/Solar/node_modules/.p
+npm/vite@7.3.1_@types+n
+ode@25.3_847d3f1dfd8a5a
+4dca3b40dafc2c9d32/node
+_modules/vite/dist/node
+/chunks/config.js:35909
+:12)
+    at async bundleAndL
+oadConfigFile (file:///
+C:/Users/nitya/Desktop/
+Solar/node_modules/.pnp
+m/vite@7.3.1_@types+nod
+e@25.3_847d3f1dfd8a5a4d
+ca3b40dafc2c9d32/node_m
+odules/vite/dist/node/c
+hunks/config.js:35797:1
+7)
+    at async 
+loadConfigFromFile (fil
+e:///C:/Users/nitya/Des
+ktop/Solar/node_modules
+/.pnpm/vite@7.3.1_@type
+s+node@25.3_847d3f1dfd8
+a5a4dca3b40dafc2c9d32/n
+ode_modules/vite/dist/n
+ode/chunks/config.js:35
+764:42)
+    at async 
+resolveConfig (file:///
+C:/Users/nitya/Desktop/
+Solar/node_modules/.pnp
+m/vite@7.3.1_@types+nod
+e@25.3_847d3f1dfd8a5a4d
+ca3b40dafc2c9d32/node_m
+odules/vite/dist/node/c
+hunks/config.js:35413:2
+2)
+    at async 
+createBuilder (file:///
+C:/Users/nitya/Desktop/
+Solar/node_modules/.pnp
+m/vite@7.3.1_@types+nod
+e@25.3_847d3f1dfd8a5a4d
+ca3b40dafc2c9d32/node_m
+odules/vite/dist/node/c
+hunks/config.js:33875:1
+9)
+    at async 
+CAC.<anonymous> (file:/
+//C:/Users/nitya/Deskto
+p/Solar/node_modules/.p
+npm/vite@7.3.1_@types+n
+ode@25.3_847d3f1dfd8a5a
+4dca3b40dafc2c9d32/node
+_modules/vite/dist/node
+/cli.js:629:10)[39m

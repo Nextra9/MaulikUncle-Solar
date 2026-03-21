@@ -1,5 +1,5 @@
 import { motion } from "framer-motion";
-import { Button } from "@/components/ui/button";
+import { Button } from "@workspace/ui";
 import { ArrowRight, Play, ChevronDown } from "lucide-react";
 
 export function Hero() {

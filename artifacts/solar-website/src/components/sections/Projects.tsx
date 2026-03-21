@@ -1,6 +1,6 @@
 import { motion } from "framer-motion";
 import { MapPin, Zap } from "lucide-react";
-import { Button } from "@/components/ui/button";
+import { Button } from "@workspace/ui";
 
 const projects = [
   {

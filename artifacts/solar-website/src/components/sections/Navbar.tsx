@@ -1,7 +1,6 @@
 import { useState, useEffect } from "react";
 import { Menu, X } from "lucide-react";
-import { Button } from "@/components/ui/button";
-import { cn } from "@/lib/utils";
+import { Button, cn } from "@workspace/ui";
 import { motion, AnimatePresence } from "framer-motion";
 
 const links = [
@@ -62,14 +61,17 @@ export function Navbar() {
         <div className="flex items-center justify-between">
           {/* Logo */}
           <div
-            className="cursor-pointer group"
+            className="cursor-pointer group flex items-center gap-3"
             onClick={() => scrollTo("#home")}
           >
             <img
               src={`${import.meta.env.BASE_URL}images/logo.jpeg`}
-              alt="Shreeji Solar Service"
-              className="h-12 w-auto object-contain rounded-lg bg-white px-1 group-hover:scale-105 transition-transform duration-200"
+              alt="Shreeji Solar Service Logo"
+              className="h-10 md:h-12 w-auto object-contain rounded-lg bg-white px-1 group-hover:scale-105 transition-transform duration-200"
             />
+            <span className="font-display font-bold text-lg md:text-xl tracking-tight">
+              Shreeji Solar Service
+            </span>
           </div>
 
           {/* Desktop Navigation */}
