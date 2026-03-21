@@ -1,14 +1,13 @@
 import { useEffect, useRef, useState } from "react";
 import { motion, useInView, useSpring, useTransform } from "framer-motion";
 
-function Counter({ from, to, duration = 2 }: { from: number; to: number; duration?: number }) {
+function Counter({ from, to }: { from: number; to: number }) {
   const ref = useRef<HTMLSpanElement>(null);
-  const inView = useInView(ref, { once: true, margin: "-100px" });
+  const inView = useInView(ref, { once: true, margin: "-50px" });
   
   const spring = useSpring(from, {
-    damping: 50,
+    damping: 30,
     stiffness: 100,
-    duration: duration * 1000,
   });
   
   const display = useTransform(spring, (current) => Math.round(current).toLocaleString());
